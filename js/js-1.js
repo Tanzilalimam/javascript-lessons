@@ -63,6 +63,8 @@ while(i<=5){
     i++;
 }
 
+// online money transaction demo-
+
 let oldBalance1 = 1000;
 let oldBalance2 = 800;
 
