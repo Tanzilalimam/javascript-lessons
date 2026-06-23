@@ -1,4 +1,4 @@
-console.log('lesson 1 from ostad');
+console.log('lesson 1');
 
 // var balance1 = 2500;
 // var balance2 = 700;
