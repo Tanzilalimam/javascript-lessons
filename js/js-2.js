@@ -46,7 +46,6 @@ let obj = {
 }
 obj.normalFn();
 obj.arrowFn();
-// Fingerprinting Protection is altering screen.availWidth and screen.availHeight. These values may not match your actual screen dimensions. This protection helps prevent websites building a fingerprint that can be used to track users. Learn more: https://support.mozilla.org/kb/firefox-protection-against-fingerprinting
 
 // advance topic-
 
