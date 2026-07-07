@@ -79,3 +79,71 @@ console.log(father, mother, sister);
 console.log(mother.nationality = 'afghan', mother); // changing property in an obj
 
 console.log(person.prototype.nationality = 'arab', father, mother, sister.nationality);
+
+
+/* practice-
+const obj = {
+    name: 'lola',
+    age: 34,
+    married: false,
+    gender: 'female'
+}
+console.log(obj);
+
+const car = {};
+car.name = 'fiat';
+car.model = 'x7';
+car.speed = 290;
+console.log(car);
+console.log(car['model']);
+
+const bike = {
+    name: 'ducati',
+    color: 'bull-black',
+    dryClutch: true,
+    func: function(){
+        return`i am planning to buy a ${this.name} ${this.color}. But a bit worried about it's ${this.dryClutch} dry clutch.`
+    }
+}
+console.log(bike.func());
+bike.model = 'ux23';
+delete bike.color;
+console.log(bike);
+
+let res = ('color' in bike);
+console.log(res);
+
+const collection = {
+    car: {
+        name: 'bmw',
+        model: 'x900',
+        tyoe: 'suv'
+    },
+    bike: {
+        name: 'royal enfield',
+        model: 'hunter',
+        cc: 350
+    }
+}
+console.log(collection);
+collection.bike.model = 'meteor';
+console.log(collection.bike);
+
+let c1 = 'car';
+let c2 = 'model';
+console.log(collection[c1][c2]);
+
+const person = function(name, age, gender){
+    this.name = name,
+    this.age = age,
+    this.gender = gender
+    this.nationality = 'bangladeshi'
+}
+const p1 = new person('abdul', 23, 'male');
+const p2 = new person('fatema', 32, 'female');
+console.log(p1, p2);
+
+console.log(p2.nationality = 'english', p2);
+
+console.log(person.prototype.racist = false, p1.racist, p2.racist);
+*/
