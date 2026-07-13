@@ -53,15 +53,22 @@ console.log('lesson 1');
 // loops-
 // for loop-
 for(let i = 0; i <= 20; i++){
-    console.log(i);
+    console.log('for loop');
 }
 
 // while loop-
 let i = 0;
 while(i<=5){
-    console.log(i);
+    console.log('while loop');
     i++;
 }
+
+// do while loop-
+i = 0;
+do{
+    console.log('do while loop');
+    i++;
+}while(i<=15);
 
 // online money transaction demo-
 
