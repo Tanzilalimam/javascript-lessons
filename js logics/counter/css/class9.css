@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+}
+h1, h2{
+    margin: 30px 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.increase{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.disp{
+    color: white;
+    font-size: 22px;
+}
+.incr, .dcr{
+    padding: 8px 24px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 36px;
+}
+.incr, .dcr:focus{
+    outline: 0;
+}
+.mssg{
+    color: red;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
